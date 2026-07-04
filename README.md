@@ -76,7 +76,7 @@ export KAFKA_TOPIC="payment_transactions"  # optional, only for live ingestion
 ### Running
 
 ```bash
-python app.py
+python that.py
 ```
 
 The dashboard will be available at `http://127.0.0.1:8050`.
