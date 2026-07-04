@@ -16,7 +16,7 @@ import os
 # ---------- CONFIG ----------
 MONGO_URI = os.environ.get(
     "MONGO_URI",
-    "mongodb+srv://Edwardmampe663_db_user:maliquedb@cluster0.f9m0qwk.mongodb.net/"
+    ""
 )
 DB_NAME = os.environ.get("DB_NAME", "ClearVu_Ltd")
 
