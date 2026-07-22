@@ -309,6 +309,8 @@ prod_cat_code_col = 'PRODCAT_CODE' if 'PRODCAT_CODE' in prod_sales.columns else 
 
 # ---------- DASH APP ----------
 app = Dash(__name__)
+server = app.server
+
 app.title="ClearVue Integrated Dashboard"
 
 app.layout = html.Div([
@@ -881,6 +883,3 @@ def update_realtime_data(n):
 # ---------- RUN APP ----------
 if __name__=="__main__":
     app.run(debug=True,host="127.0.0.1",port=8050)
-
-app = Dash(__name__)
-server = app.server
