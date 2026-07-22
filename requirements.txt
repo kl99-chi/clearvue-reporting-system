@@ -1,0 +1,8 @@
+dash
+gunicorn
+pandas
+plotly
+pymongo
+certifi
+openpyxl
+numpy

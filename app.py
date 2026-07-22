@@ -15,8 +15,7 @@ import os
 
 # ---------- CONFIG ----------
 MONGO_URI = os.environ.get(
-    "MONGO_URI",
-    ""
+    "MONGO_URI"
 )
 DB_NAME = os.environ.get("DB_NAME", "ClearVu_Ltd")
 
@@ -882,3 +881,6 @@ def update_realtime_data(n):
 # ---------- RUN APP ----------
 if __name__=="__main__":
     app.run(debug=True,host="127.0.0.1",port=8050)
+
+app = Dash(__name__)
+server = app.server
