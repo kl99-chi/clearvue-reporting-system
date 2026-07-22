@@ -17,7 +17,7 @@ import os
 MONGO_URI = os.environ.get(
     "MONGO_URI"
 )
-DB_NAME = os.environ.get("DB_NAME", "ClearVu_Ltd")
+DB_NAME = os.environ.get("DB_NAME")
 
 COL_SALES = "Sales_Header"
 COL_LINES = "Sales_Lines"
