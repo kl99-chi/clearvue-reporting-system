@@ -2,8 +2,6 @@
 
 A real-time, NoSQL-backed sales reporting system built for ClearVue Ltd., replacing a legacy MS Access setup that struggled to scale with the company's growing product- and supplier-side business. The system ingests sales, customer, product, and supplier data into MongoDB, streams new transactions in live via Kafka, and surfaces everything through an interactive Plotly Dash dashboard.
 
-![ClearVue Integrated Business Dashboard](clearvue_dashboard.png)
-
 This was a group project (7 members) developed as a client-style engineering brief. My contributions focused on data transformation logic, dashboard visualisations, and the MongoDB integration layer.
 
 ## Why this exists
