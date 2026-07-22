@@ -6,3 +6,4 @@ pymongo
 certifi
 openpyxl
 numpy
+kafka-python
